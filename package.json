@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-sanity-embed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/sanity": "^1.12.2",
+    "@sanity/code-input": "^4.1.4",
+    "@sanity/icons": "^3.4.0",
+    "@sanity/vision": "^3.41.1",
+    "nuxt": "^3.13.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^18.3.1",
+    "rxjs": "^7.8.1",
+    "sanity": "^3.41.1",
+    "sanity-plugin-dashboard-widget-netlify": "^2.0.1",
+    "sanity-plugin-media": "^2.2.5",
+    "sanity-plugin-mux-input": "^2.3.4",
+    "serve-static": "^1.16.2",
+    "styled-components": "^6.1.11",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^3.0.1",
+    "@types/react": "^18.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "lodash.get": "^4.4.2",
+    "slug": "^8.2.3",
+    "typescript": "^5.4.5",
+    "vite-tsconfig-paths": "^5.0.1"
+  }
+}
