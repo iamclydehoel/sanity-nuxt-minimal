@@ -2,6 +2,8 @@
 
 This project is a test where Nuxt 4 renders the Sanity Studio frontend under `/admin`.
 
+[Live Demo](https://gorgeous-kelpie-7b7b6e.netlify.app/) / [Admin](https://gorgeous-kelpie-7b7b6e.netlify.app/admin)
+
 ## Setup
 
 Make sure to install dependencies:
