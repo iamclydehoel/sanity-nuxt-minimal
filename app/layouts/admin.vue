@@ -21,6 +21,7 @@ onMounted(() => {
 <style lang="css">
 html, 
 body,
+#__nuxt,
 .studio {
   height: 100%;
   padding: 0;
