@@ -14,7 +14,7 @@ onMounted(() => {
   <div ref="studio" class="studio" />
 </template>
 
-<style lang="css">
+<style lang="postcss" scoped>
 html,
 body,
 #__nuxt,

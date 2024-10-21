@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<style lang="css">
+<style lang="postcss" scoped>
 .default-layout {
   nav {
     display: flex;
