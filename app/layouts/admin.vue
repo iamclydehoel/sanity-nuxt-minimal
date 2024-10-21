@@ -14,13 +14,9 @@ onMounted(() => {
   <div ref="studio" class="studio" />
 </template>
 
-<style lang="postcss" scoped>
-html,
-body,
-#__nuxt,
+<style lang="postcss">
 .studio {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  position: fixed;
+  inset: 0;
 }
 </style>
