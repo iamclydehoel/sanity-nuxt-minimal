@@ -11,7 +11,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="studio" class="studio" />
+  <div ref="studio" class="studio">
+    <NuxtPage />
+  </div>
 </template>
 
 <style lang="postcss">

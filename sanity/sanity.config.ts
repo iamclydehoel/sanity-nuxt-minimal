@@ -1,6 +1,6 @@
 import { visionTool } from '@sanity/vision'
 import { schemaTypes } from '~~/sanity/schemas'
-import { defineConfig } from 'sanity'
+import { defineConfig, isDev } from 'sanity'
 import { presentationTool } from 'sanity/presentation'
 import { structureTool } from 'sanity/structure'
 
@@ -23,7 +23,7 @@ export default defineConfig({
     visionTool(),
     presentationTool({
       previewUrl: {
-        origin: config.public.previewUrl || 'http://localhost:3000',
+        origin: isDev ? 'http://localhost:3000' : config.public.previewUrl || 'http://localhost:3000',
         previewMode: {
           enable: '/preview/enable',
           disable: '/preview/disable',
