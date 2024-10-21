@@ -1,3 +1,3 @@
-import {singletons} from './singletons'
+import { singletons } from './singletons'
 
 export const schemaTypes = [...singletons]

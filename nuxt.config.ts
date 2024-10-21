@@ -10,11 +10,11 @@ export default defineNuxtConfig({
   sanity: {
     projectId: process.env.SANITY_PROJECT_ID,
     dataset: process.env.SANITY_DATASET,
-    apiVersion: '2024-10-20'
+    apiVersion: '2024-10-20',
   },
   routeRules: {
     '/admin/**': {
-      ssr: false
-    }
-  }
+      ssr: false,
+    },
+  },
 })

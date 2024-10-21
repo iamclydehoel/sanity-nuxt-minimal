@@ -1,13 +1,15 @@
 {
   "name": "nuxt-sanity-embed",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxtjs/sanity": "^1.12.2",
@@ -22,8 +24,10 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
     "@types/react": "^18.3.1",
     "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.2",
     "typescript": "^5.4.5"
   }
 }

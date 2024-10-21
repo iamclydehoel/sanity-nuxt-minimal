@@ -1,13 +1,19 @@
 <template>
   <div class="default-layout">
     <nav>
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/">
+        Home
+      </NuxtLink>
       <!-- Nuxt Link had troubles -->
-      <a href="/admin">Admin Panel</a>
+      <!-- <a href="/admin">Admin Panel</a> -->
+      <NuxtLink to="/admin">
+        Admin Panel
+      </NuxtLink>
     </nav>
     <NuxtPage />
   </div>
 </template>
+
 <style lang="css">
 .default-layout {
   nav {

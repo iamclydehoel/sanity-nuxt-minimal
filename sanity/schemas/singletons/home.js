@@ -1,4 +1,4 @@
-import {HomeIcon} from '@sanity/icons'
+import { HomeIcon } from '@sanity/icons'
 
 const TITLE = 'Home'
 

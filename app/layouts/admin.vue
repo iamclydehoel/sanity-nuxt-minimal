@@ -1,20 +1,21 @@
 <script lang="ts" setup>
-import { renderStudio } from "sanity";
-import config from "~~/sanity/sanity.config";
+import config from '~~/sanity/sanity.config'
+import { renderStudio } from 'sanity'
 
 const studio = ref<HTMLElement | null>(null)
 onMounted(() => {
   if (studio.value) {
-    renderStudio(studio.value, config);
+    renderStudio(studio.value, config)
   }
 })
 </script>
 
 <template>
-  <div class="studio" ref="studio" />
+  <div ref="studio" class="studio" />
 </template>
+
 <style lang="css">
-html, 
+html,
 body,
 #__nuxt,
 .studio {
