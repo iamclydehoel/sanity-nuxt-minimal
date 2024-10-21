@@ -1,6 +1,7 @@
 import { visionTool } from '@sanity/vision'
 import { schemaTypes } from '~~/sanity/schemas'
 import { defineConfig } from 'sanity'
+import { presentationTool } from 'sanity/presentation'
 import { structureTool } from 'sanity/structure'
 
 const config = useRuntimeConfig()
@@ -20,6 +21,15 @@ export default defineConfig({
   plugins: [
     structureTool(),
     visionTool(),
+    presentationTool({
+      previewUrl: {
+        origin: config.public.previewUrl || 'http://localhost:3000',
+        previewMode: {
+          enable: '/preview/enable',
+          disable: '/preview/disable',
+        },
+      },
+    }),
   ],
 
   schema: {
