@@ -4,8 +4,6 @@
       <NuxtLink to="/">
         Home
       </NuxtLink>
-      <!-- Nuxt Link had troubles -->
-      <!-- <a href="/admin">Admin Panel</a> -->
       <NuxtLink to="/admin">
         Admin Panel
       </NuxtLink>
