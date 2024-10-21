@@ -1,8 +1,14 @@
-# Nuxt Sanity Test
+# Minimal Nuxt & Sanity Studio Setup
 
-This project is a test where Nuxt 4 renders the Sanity Studio frontend under `/admin`.
+This starter uses [Nuxt](https://nuxt.com/) for the front end and [Sanity](https://www.sanity.io/) to handle its content and is an alternative to the [offical clean starter](https://github.com/sanity-io/sanity-template-nuxt-clean).
 
-[Live Demo](https://gorgeous-kelpie-7b7b6e.netlify.app/) / [Admin](https://gorgeous-kelpie-7b7b6e.netlify.app/admin)
+[Live Demo](https://gorgeous-kelpie-7b7b6e.netlify.app/)
+[Sanity Studio](https://gorgeous-kelpie-7b7b6e.netlify.app/admin)
+
+# Featuring
+- Fetching content data from Sanity with the [Nuxt Sanity Module](https://github.com/nuxt-modules/sanity)
+- Hosting the Sanity Studio under `/admin` with presentation mode
+- ESLint
 
 ## Setup
 
