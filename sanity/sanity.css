@@ -1,0 +1,7 @@
+* {
+	font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+div[data-testid='field-group-tabs'] > div:has(#all-fields-tab) {
+	display: none;
+}
