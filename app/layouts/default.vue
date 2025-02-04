@@ -1,5 +1,5 @@
 <template>
-	<div class="cursor-default antialiased">
+	<div class="bg-white text-gray-950 cursor-default antialiased">
 		<site-header />
 
 		<nuxt-page />
