@@ -8,8 +8,10 @@
 					</h1>
 				</div>
 
-				<nav>
-					<nuxt-link to="/admin/" aria-label="Admin">Admin</nuxt-link>
+				<nav class="flex gap-4">
+					<nuxt-link to="/about/" aria-label="About">About</nuxt-link>
+					<nuxt-link to="/posts/" aria-label="Posts">Posts</nuxt-link>
+					<nuxt-link to="/admin/" aria-label="Admin" target="_blank">Admin</nuxt-link>
 				</nav>
 			</div>
 		</container>
