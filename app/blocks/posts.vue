@@ -9,7 +9,7 @@
 						</time>
 
 						<h2>
-							<nuxt-link :to="`/article/${item.slug.current}/`">
+							<nuxt-link :to="`/post/${item.slug.current}/`">
 								{{ item.name }}
 								<span class="absolute inset-0" />
 							</nuxt-link>
@@ -66,6 +66,7 @@ watch(
 const query = groq`{
 	"items": *[_type == "post"] | order(publishedAt desc)[$start..$end] {
 	  ...,
+		"category": category[]->
 	},
 	"total": count(*[_type == "post"])
 }`
