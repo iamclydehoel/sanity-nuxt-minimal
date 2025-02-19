@@ -2,6 +2,10 @@
 	font-family: ui-sans-serif, system-ui, sans-serif !important;
 }
 
+[data-ui='Navbar'] a [data-ui='Card']:has(+ [data-ui='Box']) {
+	display: none;
+}
+
 div[data-testid='field-group-tabs'] > div:has(#all-fields-tab) {
 	display: none;
 }

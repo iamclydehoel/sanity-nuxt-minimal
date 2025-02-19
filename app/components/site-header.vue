@@ -9,11 +9,19 @@
 				</div>
 
 				<nav class="flex gap-4">
-					<nuxt-link to="/about/" aria-label="About">About</nuxt-link>
-					<nuxt-link to="/posts/" aria-label="Posts">Posts</nuxt-link>
-					<nuxt-link to="/admin/" aria-label="Admin" target="_blank">Admin</nuxt-link>
+					<template v-for="item in items" :key="item.label">
+						<nuxt-link :to="item.to" :target="item.target">{{ item.label }}</nuxt-link>
+					</template>
 				</nav>
 			</div>
 		</container>
 	</header>
 </template>
+
+<script setup>
+const items = [
+	{ label: 'About', to: '/about/' },
+	{ label: 'Posts', to: '/posts/' },
+	{ label: 'Admin', to: '/admin/', target: '_blank' },
+]
+</script>
