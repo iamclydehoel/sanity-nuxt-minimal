@@ -20,7 +20,6 @@
 
 <script setup>
 const items = [
-	{ label: 'About', to: '/about/' },
 	{ label: 'Posts', to: '/posts/' },
 	{ label: 'Admin', to: '/admin/', target: '_blank' },
 ]
